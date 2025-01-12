@@ -14,8 +14,8 @@ D: The output distance matrix, where each pixel's value is the distance to the n
 # Function Details
 The function bwdist operates in two passes:
 
-1. First Pass: Processes the image from top-left to bottom-right, updating the distance matrix based on neighboring pixels to the north and west, including diagonals.
-2. Second Pass: Processes from bottom-right to top-left, ensuring minimal distances are computed by considering neighboring pixels to the south and east, including diagonals.
+- First Pass: Processes the image from top-left to bottom-right, updating the distance matrix based on neighboring pixels to the north and west, including diagonals.
+-  Second Pass: Processes from bottom-right to top-left, ensuring minimal distances are computed by considering neighboring pixels to the south and east, including diagonals.
 
 The Chamfer distance approach considers both vertical/horizontal (distance of 1) and diagonal (distance of √2) connections.
 
