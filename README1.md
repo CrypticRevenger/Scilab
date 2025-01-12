@@ -29,14 +29,27 @@ labels = bwconncomp(x, y, label, distThresh, labels, rows, cols)
 # Test Cases
 ## Test Case 1
 
+### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
+
+### Image-2 (Figure 1 (Right)) : The reference figure generated using Octave.
+
 ## Test case 2
+
+### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
+
+### Image-2 (Figure 1 (Right)) : The reference figure generated using Octave.
 
 ## Test case 3
 
+### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
+
+### Image-2 (Figure 1 (Right)) : The reference figure generated using Octave.
+
 ## Test case 4
 
-## Test case 5
+### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
 
+### Image-2 (Figure 1 (Right)) : The reference figure generated using Octave.
 
 # Example Usage
 ```scilab
