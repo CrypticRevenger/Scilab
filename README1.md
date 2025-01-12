@@ -10,11 +10,11 @@ labels = bwconncomp(x, y, label, distThresh, labels, rows, cols)
 ```
 
 # Parameters
-1. x, y: Coordinates of the starting pixel for the flood-fill algorithm.
-2. label: The label to assign to the connected component being processed.
-3. distThresh: A binary matrix obtained by thresholding the distance transform, where non-zero pixels represent potential components.
-4. labels: A matrix to store the labels of connected components.
-rows, cols: Dimensions of the binary image.
+-   x, y: Coordinates of the starting pixel for the flood-fill algorithm.
+-   label: The label to assign to the connected component being processed.
+-   distThresh: A binary matrix obtained by thresholding the distance transform, where non-zero pixels represent potential components.
+-   labels: A matrix to store the labels of connected components.
+-   rows, cols: Dimensions of the binary image.
 
 # Function Details
 - The bwconncomp function processes the binary image using a queue-based flood-fill approach:
