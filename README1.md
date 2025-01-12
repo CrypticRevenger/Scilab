@@ -28,3 +28,47 @@ rows, cols: Dimensions of the binary image.
 
 # Test Cases
 ## Test Case 1
+
+
+# Example Usage
+```scilab
+// Load the image
+img = imread("your_image_path");
+
+// Convert to grayscale if needed
+if size(img, 3) == 3 then
+    img_gray = rgb2gray(img);
+else
+    img_gray = img;
+end
+
+// Apply thresholding to obtain a binary image
+threshold_value = 120;
+binary_img = img_gray < threshold_value;
+
+// Dilate the binary image using a 3x3 kernel
+dilated_img = imdilate(binary_img, ones(3, 3));
+
+// Compute the distance transform and threshold it
+distance_img = bwdist(dilated_img);
+threshold_value = 3;
+distThresh = distance_img > threshold_value;
+
+// Initialize label matrix and label counter
+[rows, cols] = size(distThresh);
+labels = zeros(rows, cols);
+label_counter = 1;
+
+// Label the connected components
+for i = 1:rows
+    for j = 1:cols
+        if distThresh(i, j) & labels(i, j) == 0 then
+            labels = bwconncomp(i, j, label_counter, distThresh, labels, rows, cols);
+            label_counter = label_counter + 1;
+        end
+    end
+end
+
+// Display the labeled image
+imshow(labels);
+```
