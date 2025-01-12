@@ -27,7 +27,7 @@ labels = bwlabel(binary_img)
 - Performance: The queue-based flood-fill ensures efficient processing of connected components, even for large images.
 - Visualization: The output labels can be scaled and visualized as grayscale or colored images.
 
-# TEST CASES
+# Test Cases
 ## Test case 1
 
 # Example Usage
