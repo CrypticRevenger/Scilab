@@ -28,6 +28,8 @@ The Chamfer distance approach considers both vertical/horizontal (distance of 1)
 # Test Cases
 ## Test case 1
 
+![Screenshot 2025-01-13 021856](https://github.com/user-attachments/assets/849e1d27-42d2-415e-b2dc-dc5a97a42c09)
+
 ## Test case 2
 
 ## Test case 3
