@@ -5,7 +5,6 @@ The bwlabel function labels connected components in a binary image. It assigns u
 
 # Calling Sequence
 ```scilab
-Copy code
 labels = bwlabel(binary_img)
 ```
 
