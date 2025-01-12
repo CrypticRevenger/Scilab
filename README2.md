@@ -30,6 +30,12 @@ labels = bwlabel(binary_img)
 # Test Cases
 ## Test case 1
 
+![Screenshot 2025-01-13 013321](https://github.com/user-attachments/assets/4efaca3a-6f93-4684-847b-4e92a9283ac4)
+
+### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
+
+### Image-2 (Figure 1 (Right)) : The reference figure generated using Octave.
+
 ## Test case 2
 
 ## Test case 3
