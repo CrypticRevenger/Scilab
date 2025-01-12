@@ -29,6 +29,14 @@ labels = bwconncomp(x, y, label, distThresh, labels, rows, cols)
 # Test Cases
 ## Test Case 1
 
+## Test case 2
+
+## Test case 3
+
+## Test case 4
+
+## Test case 5
+
 
 # Example Usage
 ```scilab
