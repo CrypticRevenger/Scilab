@@ -41,7 +41,7 @@ else
 end
 
 // Apply thresholding
-threshold_value = 120;
+threshold_value = 120; // This value can be modified according to users requirement
 binary_img = img_gray < threshold_value;
 
 // Dilate the binary image using a 3x3 kernel
