@@ -68,7 +68,8 @@ img = imread("path/to/image");
 if size(img, 3) == 3 then
     binary_img = rgb2gray(img) < 120; // Convert to binary
 else
-    binary_img = img < 120; // Binary thresholding
+   threshold_value = 120; // This value can be modified according to users requirement
+   binary_img = img < threshold_value; // Binary thresholding
 end
 
 // Label the connected components
