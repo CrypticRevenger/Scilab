@@ -30,6 +30,14 @@ labels = bwlabel(binary_img)
 # Test Cases
 ## Test case 1
 
+## Test case 2
+
+## Test case 3
+
+## Test case 4
+
+## Test case 5
+
 # Example Usage
 ```scilab
 // Load a binary image
