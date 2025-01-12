@@ -4,9 +4,9 @@
 `bwdist` computes the distance transform of a binary image, providing the minimum distance from each pixel to the nearest non-zero pixel (foreground) in the binary image. This implementation uses a Chamfer distance approach with diagonal connections.
 
 ## Calling Sequence
-
+```scilab
 D = bwdist(binary_img)
-
+```
 # Parameters
 binary_img: A binary matrix (image) where non-zero pixels represent the foreground, and zero pixels represent the background.
 D: The output distance matrix, where each pixel's value is the distance to the nearest foreground pixel.
