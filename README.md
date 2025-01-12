@@ -30,13 +30,34 @@ The Chamfer distance approach considers both vertical/horizontal (distance of 1)
 
 ![Screenshot 2025-01-13 021856](https://github.com/user-attachments/assets/849e1d27-42d2-415e-b2dc-dc5a97a42c09)
 
+### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
+
+### Image-2 (Figure 1 (Right)) : The reference figure generated using Octave.
+
 ## Test case 2
+
+![Screenshot 2025-01-13 022202](https://github.com/user-attachments/assets/1e4e5562-222e-4da3-8262-fd25922d38e3)
+
+### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
+
+### Image-2 (Figure 1 (Right)) : The reference figure generated using Octave.
+
 
 ## Test case 3
 
+![Screenshot 2025-01-13 022413](https://github.com/user-attachments/assets/6b0cd119-1d13-4d90-8e95-d45614c3ea2b)
+
+### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
+
+### Image-2 (Figure 1 (Right)) : The reference figure generated using Octave.
+
 ## Test case 4
 
-## Test case 5
+![Screenshot 2025-01-13 022651](https://github.com/user-attachments/assets/2e00ea83-c870-4a7b-a3c7-cbf47eff7c37)
+
+### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
+
+### Image-2 (Figure 1 (Right)) : The reference figure generated using Octave.
 
 
 # Example Usage
