@@ -29,6 +29,8 @@ labels = bwconncomp(x, y, label, distThresh, labels, rows, cols)
 # Test Cases
 ## Test Case 1
 
+![Screenshot 2025-01-13 023914](https://github.com/user-attachments/assets/04fc6c1b-cfeb-411f-916d-5c92a7cb2253)
+
 ### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
 
 ### Image-2 (Figure 1 (Right)) : The reference figure generated using Octave.
@@ -42,7 +44,7 @@ labels = bwconncomp(x, y, label, distThresh, labels, rows, cols)
 
 ## Test case 3
 
-![Screenshot 2025-01-13 023914](https://github.com/user-attachments/assets/04fc6c1b-cfeb-411f-916d-5c92a7cb2253)
+
 
 ### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
 
