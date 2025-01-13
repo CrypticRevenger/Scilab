@@ -29,7 +29,7 @@ labels = bwconncomp(x, y, label, distThresh, labels, rows, cols)
 # Test Cases
 ## Test Case 1
 
-![Screenshot 2025-01-13 023914](https://github.com/user-attachments/assets/04fc6c1b-cfeb-411f-916d-5c92a7cb2253)
+![Screenshot 2025-01-14 010724](https://github.com/user-attachments/assets/111ffc0e-66fa-4d2a-bbe6-d4055813421e)
 
 ### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
 
@@ -37,14 +37,18 @@ labels = bwconncomp(x, y, label, distThresh, labels, rows, cols)
 
 ## Test case 2
 
+![Screenshot 2025-01-14 011344](https://github.com/user-attachments/assets/34afe463-4195-4b69-91e2-af5cf1f70abe)
+
 
 ### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
 
 ### Image-2 (Figure 1 (Right)) : The reference figure generated using Octave.
 
+
+
 ## Test case 3
 
-
+![Screenshot 2025-01-14 011820](https://github.com/user-attachments/assets/5e6468e9-1d70-484f-a3b9-6f10225c0319)
 
 ### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
 
@@ -52,7 +56,7 @@ labels = bwconncomp(x, y, label, distThresh, labels, rows, cols)
 
 ## Test case 4
 
-![Screenshot 2025-01-13 023603](https://github.com/user-attachments/assets/6f0aa867-1152-4706-97c0-baacbb618f20)
+![Screenshot 2025-01-13 235114](https://github.com/user-attachments/assets/47161408-6989-4a00-a048-d16c1b0baa84)
 
 ### Image-1 (Graphic Window number 0 (Left)) : The custom implementation in Scilab, designed to match the given Octave figure's output. 
 
