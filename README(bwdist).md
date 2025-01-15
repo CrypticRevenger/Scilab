@@ -1,5 +1,15 @@
 # bwdist Function in Scilab
 
+## How to include library file 
+
+1.  change the current directory to the directory where imagelib.sci is stored in Scilab, use the cd command. For example:
+
+```scilab
+cd('path_to_directory_containing_imagelib.sci');
+```
+
+Replace 'path_to_directory_containing_imagelib.sci' with the actual path where the file is located.
+
 ## Description
 `bwdist` computes the distance transform of a binary image, providing the minimum distance from each pixel to the nearest non-zero pixel (foreground) in the binary image. This implementation uses a Chamfer distance approach with diagonal connections.
 
