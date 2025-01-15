@@ -1,5 +1,5 @@
 # GITHUB REPO LINK
-https://github.com/CrypticRevenger/Scilab/edit/main/README(bwdist).md
+https://github.com/CrypticRevenger/Scilab/blob/main/README(bwdist).md
 # bwdist Function in Scilab
 
 ## How to include library file 
