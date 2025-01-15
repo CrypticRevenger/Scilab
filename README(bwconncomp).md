@@ -2,11 +2,13 @@
 
 ## How to include library file 
 
-1. change the current directory to function directory
+1.  change the current directory to the directory where imagelib.sci is stored in Scilab, use the cd command. For example:
 
 ```scilab
-cd C:\Users\PRASANT\Desktop\scilab
+cd('path_to_directory_containing_imagelib.sci');
 ```
+
+Replace 'path_to_directory_containing_imagelib.sci' with the actual path where the file is located.
 
 ## Description
 `bwconncomp` labels connected components in a binary image using a queue-based flood-fill algorithm. It assigns a unique label to each connected component, making it easier to analyze and process segmented regions in the image.
