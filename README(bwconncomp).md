@@ -2,7 +2,7 @@
 
 ## How to include library file 
 
-1. change the current dict  to function dict
+1. change the current directory to function directory
 
 ```scilab
 cd C:\Users\PRASANT\Desktop\scilab
