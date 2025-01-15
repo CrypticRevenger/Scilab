@@ -2,7 +2,7 @@
 https://github.com/CrypticRevenger/Scilab/blob/main/README(bwconncomp).md
 # bwconncomp Function in Scilab
 
-## How to include library file 
+# ** Setting the Working Directory for Library Inclusion in Scilab **
 
 1.  change the current directory to the directory where imagelib.sci is stored in Scilab, use the cd command. For example:
 
