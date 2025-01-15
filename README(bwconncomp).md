@@ -1,5 +1,13 @@
 # bwconncomp Function in Scilab
 
+## How to include library file 
+
+1. change the current dict  to function dict
+
+```scilab
+cd C:\Users\PRASANT\Desktop\scilab
+```
+
 ## Description
 `bwconncomp` labels connected components in a binary image using a queue-based flood-fill algorithm. It assigns a unique label to each connected component, making it easier to analyze and process segmented regions in the image.
 
