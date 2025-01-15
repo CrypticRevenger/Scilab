@@ -1,5 +1,15 @@
 # bwlabel Function in Scilab
 
+## How to include library file 
+
+1.  change the current directory to the directory where imagelib.sci is stored in Scilab, use the cd command. For example:
+
+```scilab
+cd('path_to_directory_containing_imagelib.sci');
+```
+
+Replace 'path_to_directory_containing_imagelib.sci' with the actual path where the file is located.
+
 # Description
 The bwlabel function labels connected components in a binary image. It assigns unique labels to distinct regions of connected pixels, simplifying segmentation and analysis tasks. This implementation supports both 4-connectivity and 8-connectivity.
 
